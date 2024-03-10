@@ -16,6 +16,7 @@
         "moment": "^2.30.1",
         "mysql2": "^3.9.2",
         "next": "^13.5.4",
+        "pg-hstore": "^2.3.4",
         "primereact": "^9.6.3",
         "react": "^18",
         "react-dom": "^18",
