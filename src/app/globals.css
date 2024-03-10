@@ -2,32 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    width: 100%;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #ffffff;
+    overflow: auto;
+    overflow-x: hidden !important;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/*
+ *  Toast
+ */
+
+.p-toast.p-component {
+    font-family: inherit !important;
+}
+
+.p-toast .p-toast-message {
+    box-shadow: none;
+    border-radius: 0.75rem;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-detail {
+    margin: 0 !important;
+}
+
+/*
+ *  Comments
+ */
+
+.comments > ul > li {
+    margin-bottom: 1.5rem;
+}
+
+.comments > ul ul li {
+    margin-top: 0.5rem;
+    padding-left: 4rem;
+}
+
+.comments ul li > div {
+    padding: 1rem;
 }
