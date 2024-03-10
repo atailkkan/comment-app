@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Comment App For Learning
 
-## Getting Started
+> This application is plain, minimal and simply coded. Do not use this application in your complete projects. Because it is coded for front-end developers who are just learning. If you want to use it in your own projects, you need to develop this application.
 
-First, run the development server:
+Demo is here ===> [comment-app](https://comment-app.buqa.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## NPM Packages Used In App
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Cookie
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [cookies-next](https://www.npmjs.com/package/cookies-next)
+- [cryptr](https://www.npmjs.com/package/cryptr)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### UI
 
-## Learn More
+- [primereact](https://www.npmjs.com/package/primereact)
+- [primeicons](https://www.npmjs.com/package/primeicons)
+- [remixicon](https://www.npmjs.com/package/remixicon)
+- [formik](https://www.npmjs.com/package/formik)
+- [framer motion](https://www.npmjs.com/package/framer-motion/)
 
-To learn more about Next.js, take a look at the following resources:
+### Database
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [sequelize](https://www.npmjs.com/package/sequelize)
+- [mysql2](https://www.npmjs.com/package/mysql2)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Others
 
-## Deploy on Vercel
+- [moment](https://www.npmjs.com/package/moment)
+- [uid](https://www.npmjs.com/package/uid)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features Of App
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- List all posts,
+- Get single post,
+- Filter posts by category,
+- Login & Register,
+- Write a comment,
+- Reply to comment
